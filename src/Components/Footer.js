@@ -11,7 +11,7 @@ function Footer() {
                         to={'/'}
                         className={'fs-4 textlightbrand '}
                         style={{ textDecoration: 'none' }}>
-                      {" "}  Yelmouss
+                      {" "}  SergeNadin
                     </NavLink> with <CiHeart /> </span>
             </Font>
 

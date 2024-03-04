@@ -10,12 +10,13 @@ import Footer from './Components/Footer';
 import Font from 'react-font';
 import Services from './Components/Services';
 
+
+
 const App = () => {
   useEffect(() => {
     ReactGA.initialize('G-NSE8GHV1SG');
   }, []);
 
-  
   return (
     <>
       <Font family='Genos'>
@@ -31,9 +32,11 @@ const App = () => {
                   <About />
                   <Works />
                   <Contact />
+
                 </>
               }
             />
+            {/* Add more routes here if needed */}
           </Routes>
           <Footer />
         </Router>

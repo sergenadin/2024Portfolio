@@ -15,12 +15,12 @@ const Home = () => {
 
         <Fade className='container d-flex flex-column align-items-start p-2 justify-content-start' cascade>
           <Slide direction="up" >
-            <h2 className='B89 fs-1  align-self-center textlightbrand  shadow-lg'>Welcome to my Portfolio</h2>
+            <h2 className='B89 fs-1  align-self-center textlightbrand  shadow-lg'>Bienvenue sur Mon Portfolio</h2>
           </Slide>
           <Slide direction="right" >
             <Typed
               strings={[`<h2 className='fs-1'>Hey my name is </h2>
-            <h1 className='fst-italic B89 '> Yassine ELMOUSS </h1>  
+            <h1 className='fst-italic B89 '> Serge Nadin </h1>  
           
             `]}
               typeSpeed={50}
@@ -28,7 +28,7 @@ const Home = () => {
               className=' fst-italic fs-1  text-start'
             />
 
-            <h2> I build things for the WEB</h2>
+            <h2> Je construis des Projets WEB</h2>
             <Typed
               strings={[`
               <h3>

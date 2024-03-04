@@ -13,7 +13,7 @@ const Header = () => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      document.title = `Yelmouss - ${sectionId}`;
+      document.title = `Serge Nadin - ${sectionId}`;
     }
   };
 
@@ -78,7 +78,7 @@ const Header = () => {
               className="d-inline-block align-end bgBrandLight rounded-circle p-1 imgGeek"
             />
 
-            {" yelmouss".split("").map((letter, index) => {
+            {" Serge Nadin".split("").map((letter, index) => {
               return (
                 <span key={index} className="text-fun-pink textlightbrand fs-1  ">
                   {letter}
@@ -96,10 +96,10 @@ const Header = () => {
               Home
             </Nav.Link>
             <Nav.Link href="#Services" onClick={() => handleScroll('Services')} className={activeSection === 'Services' ? 'active' : ''}>
-            Services
+              Services
             </Nav.Link>
 
-            
+
             <Nav.Link href="#About" onClick={() => handleScroll('About')} className={activeSection === 'About' ? 'active' : ''}>
               About
             </Nav.Link>
@@ -110,7 +110,7 @@ const Header = () => {
               Contact
             </Nav.Link>
             <Nav.Link onClick={toggleFullscreen}>
-              {isFullscreen ? <AiOutlineFullscreenExit /> : <AiOutlineFullscreen /> }
+              {isFullscreen ? <AiOutlineFullscreenExit /> : <AiOutlineFullscreen />}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
