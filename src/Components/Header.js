@@ -69,7 +69,8 @@ const Header = () => {
     >
       <Container>
         <Navbar.Brand href="/">
-          <Font family="Satisfy">
+        <Font family="Satisfy">
+
             <img
               src={MyImage}
               alt="Geek"
